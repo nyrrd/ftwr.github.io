@@ -1,5 +1,5 @@
 title = "Follow The White Rabbit"
-baseurl = "http://192.168.50.60/"
+baseurl = "http://followthewhiterabbit.xyz"
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
@@ -15,7 +15,6 @@ defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-#copyRight = "Copyright (c) 2020-2024 Thulite"
 copyRight = "Copyright (c) 2020-2024 Kharon Studios"
 
 [build.buildStats]
@@ -57,7 +56,7 @@ copyRight = "Copyright (c) 2020-2024 Kharon Studios"
 
 [permalinks]
 #  blog = "/blog/:slug/"
-  docs = "/docs/:sections[1:]/:slug/"
+#  docs = "/docs/:sections[1:]/:slug/"
 # docs = "/docs/1.0/:sections[1:]/:slug/"
 
 [minify.tdewolff.html]
