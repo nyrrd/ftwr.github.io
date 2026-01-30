@@ -1,20 +1,15 @@
 {{ define "main" -}}
 {{- $breakpoint := $.Scratch.Get "breakpoint" -}}
 
-<div class="container-xxl flex-fill p-4 px-xxl-0">
-  <div class="row row-cols-1 row-cols-{{ $breakpoint.current }}-2">
-    <div class="col col-{{ $breakpoint.prev }}-12 col-{{ $breakpoint.current }}-12">
-      <div class="row justify-content-center mt-5">
-        <div class="col-lg-7 text-center">
-          <img alt="rabbit" src="img/ftwr.png" width="20%" />
-            <div class="mt-4">
-		<p class="fs-3">You take the blue pill... the story ends, you wake up and believe whatever you want to believe. You take the red pill... you stay in Wonderland, and I show you how deep this rabbit hole goes.</p>
-	    </div>
-              <a class="btn btn-primary btn-cta rounded-pill btn-lg my-4" href="https://www.wiki.archlinux.org" role="button">Red Pill</a>
-	     <a class="btn btn-secondary btn-cta rounded-pill btn-lg my-4" href="https://www.microsoft.com/en-us/software-download/windows11" role="button">Blue Pill</a>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="row justify-content-center mt-5">
+	<div class="col-lg-7 text-center">
+        	<img alt="rabbit" src="img/ftwr.png" width="50%" />
+            	<div class="mt-4">
+			<p class="fs-3">You take the blue pill... the story ends, you wake up and believe whatever you want to believe. You take the red pill... you stay in Wonderland, and I show you how deep this rabbit hole goes.
+			</p>
+	    	</div>
+              	<a class="btn btn-primary btn-cta rounded-pill btn-lg my-4" href="https://www.wiki.archlinux.org" role="button">Red Pill</a>
+	     	<a class="btn btn-secondary btn-cta rounded-pill btn-lg my-4" href="https://www.microsoft.com/en-us/software-download/windows11" role="button">Blue Pill</a>
+	</div>
 </div>
 {{ end -}}

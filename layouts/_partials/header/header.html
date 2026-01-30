@@ -1,0 +1,23 @@
+{{ if site.Params.doks.alert -}}
+  {{ partial "header/alert.html" . }}
+{{ end -}}
+
+{{ if site.Params.doks.navbarSticky -}}
+<div class="sticky-top">
+{{ end -}}
+
+{{ if site.Params.doks.headerBar -}}
+<div class="header-bar"></div>
+{{ end -}}
+
+<header class="navbar navbar-expand-lg">
+  {{ with site.Params.doks.containerBreakpoint -}}
+    <div class="container-{{ . }}">
+  {{ else -}}
+    <div class="container">
+  {{ end -}}
+
+<!-- Search modal -->
+{{ if site.Params.doks.flexSearch -}}
+  {{ partial "header/search-modal" . }}
+{{ end -}}
