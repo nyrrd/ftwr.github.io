@@ -42,7 +42,6 @@
     ],
     "classes": [
       "DocSearch-Label",
-      "align-items-center",
       "border-top",
       "btn",
       "btn-close",
@@ -131,7 +130,6 @@
       "offcanvas-end",
       "offcanvas-header",
       "offcanvas-title",
-      "order-0",
       "order-3",
       "order-lg-4",
       "p-0",
